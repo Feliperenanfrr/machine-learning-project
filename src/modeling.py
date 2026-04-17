@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 from sklearn.ensemble import RandomForestClassifier
-from spicy.sparse import csr_matrix # tentando utilizar o Matrix para rodar o sv
+from scipy import csr_matrix # tentando utilizar o Matrix para rodar o sv
 import numpy as ny
 
 # from utils import DATA_PATH 
