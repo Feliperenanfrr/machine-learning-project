@@ -1,0 +1,53 @@
+{
+  "model": "logistic_regression",
+  "classes": [
+    "anxiety",
+    "gout",
+    "pneumonia"
+  ],
+  "configured_classes": [
+    "pneumonia",
+    "gout",
+    "anxiety"
+  ],
+  "features": [
+    "anxiety and nervousness",
+    "depression",
+    "depressive or psychotic symptoms",
+    "insomnia",
+    "abnormal involuntary movements",
+    "palpitations",
+    "irregular heartbeat",
+    "sore throat",
+    "nasal congestion",
+    "vomiting",
+    "headache",
+    "wrist pain",
+    "hand or finger swelling",
+    "knee pain",
+    "foot or toe pain",
+    "ankle pain",
+    "knee swelling",
+    "foot or toe swelling",
+    "weakness",
+    "difficulty breathing",
+    "joint pain",
+    "chills",
+    "coryza",
+    "fears and phobias",
+    "ankle swelling"
+  ],
+  "n_features": 25,
+  "feature_selection": "SelectKBest_chi2",
+  "k_best": 25,
+  "metrics_test": {
+    "accuracy": 0.9986,
+    "f1_macro": 0.9986,
+    "precision_macro": 0.9986,
+    "recall_macro": 0.9986,
+    "roc_auc_macro": 1.0,
+    "log_loss": 0.1637
+  },
+  "random_state": 42,
+  "sklearn_version": "1.7.2"
+}
