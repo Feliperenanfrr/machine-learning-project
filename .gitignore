@@ -17,3 +17,6 @@ data/*.csv
 # Modelos serializados
 models/*.pkl
 models/*.joblib
+
+# Arquivos de apresentação (não versionar)
+APRESENTACAO_*.md
