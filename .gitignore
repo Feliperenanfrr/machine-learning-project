@@ -5,6 +5,15 @@ __pycache__/
 venv/
 env/
 .env
+
+# Editores e ferramentas
+.vscode/
+.idea/
+.qwen/
+
+# Datasets brutos e tratados (grandes demais para versionar)
 data/*.csv
+
+# Modelos serializados
 models/*.pkl
 models/*.joblib
